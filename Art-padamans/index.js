@@ -1,19 +1,23 @@
-$(document).ready(function(){
-    //Top sale
-    $("#top-sale .owl-carousel").owlCarousel({
-        loop:true,
-        nav:true,
-        dots:false,
-        responsive:{
-            0: {
-                items:1
-            },
-            600: {
-                items:3
-            },
-            1000: {
-                items : 5
-            }
+ $(document).ready(function () {
+
+      $("#owl-demo").owlCarousel({
+        loop: true,
+        nav: true,
+        dots: true,
+        //default settings:
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          960: {
+            items: 3
+          }
         }
+      });
+
     });
-});
