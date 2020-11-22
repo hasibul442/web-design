@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/headear1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header .navbar-brand{
+    color: #48cae4;
+    font-weight: bold;
+}
+#header .navbar-brand span{
+    color: #ffadad;
+}
+#header #navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#menu{
+    text-align: center;
+    justify-content: center;
+}
+
+#menu a{
+    color:white;
+    padding-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+#menu a:hover{
+    background-color: #8ecae6;
+    transition: 0.5s;
+    color: #4a4e69;
+    border-radius: 40px 20px;
+}
+#heading{
+    font-weight: bold;
+}
+#details{
+    padding-top: 1rem;
+    color: white;
+}
+.play_icon i{
+    padding: 20px 0 20px 0;
+    font-size: 3rem;
+    color: white;
+}
+#body_containe{
+    margin-top: 5rem;
+}
+#body_containe #title{
+    font-weight: bold;
+}
+.icon{
+    background-color: #03045e;
+    border-radius: 50px;
+    padding: 15px;
+    border: 1px solid green;  
+}
+#body_containe h4{
+    color: #03045e;
+    font-weight: 700;
+}
+
+
+#owl-demo .item{
+    background:transparent;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+#products{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/b2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#products h2{
+    font-weight: 600;
+    color: white;
+}
+#products p{
+    color: #fff;
+}
+.icon1{
+    font-size: 40px;
+    page-break-after: 20px;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color :black;
+
+    
+}
+#footersection{
+    background-color: #00afb9;
+}
+.fa-thumbs-up{
+    float: right;
+    font-size: 40px;
+    color: #fff;
+}
+#footersection h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+#footersection p{
+    color: #fff;
+}
