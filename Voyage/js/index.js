@@ -4,6 +4,8 @@ $(document).ready(function () {
       loop: true,
       nav: true,
       dots: true,
+      center: true,
+      items:2,
       //default settings:
       autoplay: true,
       autoplayTimeout: 5000,
