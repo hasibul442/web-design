@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#menu-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+.navbar-brand span{
+    color: #1cadd1;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 10px ;
+    color: #ffffff;
+}
+
+.navbar-nav a:hover{
+    background-color: rgb(28, 255, 255);
+    color: #000000;
+    transition: 0.5s;
+}
+.title-name{
+    padding:12rem 0;
+}
+.title-name h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.title-name h3, .title-name p{
+    color: #ffffff;
+}
+#body1{
+    padding: 3rem 0;
+}
+#body2 > h5{
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.service-title{
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+#body3{
+    background-color: #1d3557;
+    color: #ffffff;
+}
+#headline2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+#headline2::after{
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+
+}
+#headline2::before{
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+}
+
+#instragram-btn{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: none;
+}
+#instragram-btn:hover{
+    background-color: aqua;
+    border: 1px solid aqua;
+    color: #000000;
+    
+}
+#headline3{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+#headline3::after{
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+
+}
+#headline3::before{
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+}
+.icon-time{
+   text-align: left;
+}
+#journal-link{
+    text-decoration: none;
+    color: #1d3557;
+}
+#journal-link:hover{
+    color: #1cadd1;
+    border-bottom: 1px solid #1cadd1;
+}
+#about-me-headline{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#about-me-headline::after{
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+}
+
+#footer1{
+    background-color: #343a40;
+}
+#footer1 ul li{
+    list-style: none;
+    padding: 8px;
+
+}
+
+#footer1 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+}
+#footer1 ul li a:hover{
+    color: #000000;
+    background-color: #80ffdb;
+    transition: 0.5s;
+}
+#footer2{
+    background-color: #212529;
+    color: #ffffff;
+}
