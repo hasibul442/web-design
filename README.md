@@ -5,3 +5,4 @@ All are landing page design. And Free template.
   1. Art-padamans ( https://hasibul442.github.io/web-design/Art-padamans/index.html )
   2. Voyage ( https://hasibul442.github.io/web-design/Voyage/index.html )
   3. Jonathon Kubb ( https://hasibul442.github.io/web-design/kubb/index.html )
+  4. Flat-Mate  ( https://hasibul442.github.io/web-design/Flat-Mate/index.html )
