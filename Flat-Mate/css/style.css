@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menubar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0,0,0,0.7)),url(../img/b1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+.navbar-brand{
+    color: #5ac18e;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: #5ac18e;
+}
+.navbar-brand span{
+    color: #cb2a83;
+}
+.nav-item > a{
+    color: #c0d6e4;
+}
+#login-btn{
+    border: 1px solid #cb2a83;
+    background: #000000;
+    
+    color:#f81894;
+    font-weight: 600;
+}
+#login-btn:hover{
+    background-color:#5ac18e;
+    color: #000000;
+    border: 1px solid #ffffff;
+    transition: 0.5s;
+}
+#top-heading{
+    font-family: 'Times New Roman', Times, serif;
+    color: #c0d6e4;
+    font-weight: 700;
+}
+#top-summery{
+    color: #c0d6e4;
+}
+#top-read-more-btn{
+    color:#c0d6e4;
+    background-color:#288a42;
+    font-weight: 600;
+}
+.body-1-icon{
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #288a42;
+    border-radius: 50%;
+    color: #288a42;
+}
+.body-1-icon:hover{
+    color: #ffffff;
+    background-color: #288a42;
+    transition: 0.5s;
+}
+.body-3-headline{
+    font-weight: 600;
+}
+.body-3-pera{
+    color:#a6a6a6;
+}
+#card-header1{
+background-color: #4C596C;
+}
+#card-header2{
+    background-color: #58AD52;
+}
+#card-header3{
+    background-color: #53A1AD;
+}
+#header-text{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+.card-body{
+    text-align: center;
+}
+.card-body ul li{
+    list-style: none;
+    padding: 20px 0px;
+}
+#card-body-1{
+    background-color:#4c596c2d;
+}
+#card-body-2{
+    background-color: #58ad522d;
+}
+#card-body-3{
+    background-color:#53a1ad2d;
+}
+#body-3-btn-1{
+    background-color: #4C596C;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding: 8px 0px;
+    text-decoration: none;
+    transition: all 0.5s;
+    right: -20px;
+}
+#body-3-btn-1 span::after {
+    content: ' \00bb';
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+    
+}
+#body-3-btn-1:hover span{
+    padding-right:25px;
+    transition: 0.5s;
+}
+#body-3-btn-1:hover span::after{
+    opacity:1;
+    right: 0;
+    transition: 0.5s;
+}
+#body-3-btn-2{
+    background-color: #58AD52;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding: 8px 0px;
+    text-decoration: none;
+    transition: all 0.5s;
+    right: -20px;
+}
+#body-3-btn-2 span::after {
+    content: ' \00bb';
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+    
+}
+#body-3-btn-2:hover span{
+    padding-right:25px;
+    transition: 0.5s;
+}
+#body-3-btn-2:hover span::after{
+    opacity:1;
+    right: 0;
+    transition: 0.5s;
+}
+#body-3-btn-3{
+    background-color: #53a1ad;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding: 8px 0px;
+    text-decoration: none;
+    transition: all 0.5s;
+    right: -20px;
+}
+#body-3-btn-3 span::after {
+    content: ' \00bb';
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+    
+}
+#body-3-btn-3:hover span{
+    padding-right:25px;
+    transition: 0.5s;
+}
+#body-3-btn-3:hover span::after{
+    opacity:1;
+    right: 0;
+    transition: 0.5s;
+}
+.body-4{
+    background-color: #E9EAEE;
+}
+.body-4-headling  p{
+    color: #4b4c4d;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.body-5{
+    background-color: #2D3035;
+}
+
+.contact-form{
+    background: transparent;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #ffffff;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+.footer1{
+    background-color: #000000;
+    height: auto;
+    color: #fff;
+}
