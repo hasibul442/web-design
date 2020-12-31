@@ -6,3 +6,4 @@ All are landing page design. And Free template.
   2. Voyage ( https://hasibul442.github.io/web-design/Voyage/index.html )
   3. Jonathon Kubb ( https://hasibul442.github.io/web-design/kubb/index.html )
   4. Flat-Mate  ( https://hasibul442.github.io/web-design/Flat-Mate/index.html )
+  5. Template  ( https://hasibul442.github.io/web-design/Template/index.html )
