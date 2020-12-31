@@ -11,3 +11,4 @@ All are landing page design. All page are static, One page template and Free.
   7. Bolt  ( https://hasibul442.github.io/web-design/Bolt/index.html )
   8. Design-1  ( https://hasibul442.github.io/web-design/Design-1/index.html )
   9. Design-2  ( https://hasibul442.github.io/web-design/Design-2/index.html )
+  10. Design-3  ( https://hasibul442.github.io/web-design/Design-3/index.html )
