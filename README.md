@@ -8,3 +8,4 @@ All are landing page design. All page are static, One page template and Free.
   4. Flat-Mate  ( https://hasibul442.github.io/web-design/Flat-Mate/index.html )
   5. Template  ( https://hasibul442.github.io/web-design/Template/index.html )
   6. Atlas  ( https://hasibul442.github.io/web-design/Atlas/index.html )
+  7. Bolt  ( https://hasibul442.github.io/web-design/Bolt/index.html )
