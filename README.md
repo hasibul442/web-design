@@ -7,3 +7,4 @@ All are landing page design. All page are static, One page template and Free.
   3. Jonathon Kubb ( https://hasibul442.github.io/web-design/kubb/index.html )
   4. Flat-Mate  ( https://hasibul442.github.io/web-design/Flat-Mate/index.html )
   5. Template  ( https://hasibul442.github.io/web-design/Template/index.html )
+  6. Atlas  ( https://hasibul442.github.io/web-design/Atlas/index.html )
